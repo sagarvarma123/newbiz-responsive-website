@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to NewBiz</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+
+	*{
+		font-family: "Montserrat", sans-serif;
+
+	}
+
+	nav{
+		box-shadow:0 8px 8px 0 #ccc;
+		padding-top:15px !important;
+		padding-bottom: 15px !important;		
+	}
+
+	.bar{
+		font-size: 25px;
+		color: darkblue;
+		border: 2px solid #ddd;
+		
+		width: 41px;
+		height: 41px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#menu ul li{
+		padding:0px 10px;
+		font-family: "Maven Pro", sans-serif;
+
+	}
+
+	#menu ul li a{
+		font-weight:500;
+		font-size: 15;
+	}
+
+	.about{
+		margin-top:50px;
+	}
+
+	.abt-txt{
+		font-weight: 500;
+		font-size: 15px;
+	}
+
+	.second-row,.third-row,.fourth-row,.service{
+		margin-top:50px;
+	}
+
+	.h5{
+		font-weight: 600;
+	}
+
+	.d-menu a{
+		color: #fff;
+	}
+
+	.d-menu a:hover{
+		background: white;
+		color: #4AA3FF;
+
+	}
+	.third-row,.fourth-row,.service h3{
+		font-weight: 600;
+		font-size: 26px;
+		padding-bottom: 20px;
+
+	}
+	.heading{
+		font-weight: 600;
+		font-size: 20px;
+		
+	}
+	
+
+	.service{
+		background: rgba(23,162,184,0.3);
+		padding: 20px;
+
+
+	}
+
+	.service-col-bg{
+		background: #fff;
+		padding: 15px 5px;
+		border-radius: 8px;
+		margin: 20px;
+		}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+	<img src="newbiz-banner.webp" alt="newbiz-banner" width="100%">
+</div>
+	
+<nav class="navbar navbar-expand-md sticky-top bg-primary">
+	<div class="container">
+	<a href="#" class="navbar-brand"><img src="logo.png" width="160"></a>
+
+	<i class="fas fa fa-bars navbar-toggler bar" data-toggle="collapse" data-target="#menu"></i>
+
+	<div class="collapse navbar-collapse" id="menu">
+		
+<ul class="navbar-nav ml-auto">
+	<li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+	<li class="nav-item"><a href="#" class="nav-link text-white">About</a></li>
+	<li class="nav-item"><a href="#" class="nav-link text-white">Services</a></li>
+	<li class="nav-item"><a href="#" class="nav-link text-white">Portfolio</a></li>
+	<li class="nav-item"><a href="#" class="nav-link text-white">Team</a></li>
+	<li class="nav-item dropdown"><a href="#" class="nav-link text-white dropdown-toggle" data-toggle="dropdown">Drop Down</a>
+
+<div class="dropdown-menu bg-primary d-menu">
+	<a href="#" class="nav-link text-center">Gallery</a>
+	<a href="#" class="nav-link text-center">Videos</a>
+	<a href="#" class="nav-link text-center">Inquiry</a>
+	<a href="#" class="nav-link text-center">Team Members</a>
+	<a href="#" class="nav-link text-center">Founder</a>
+
+</div>
+
+	</li>
+
+	<li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- section-->
+
+<div class="container">
+	
+<div class="row">
+	<div class="col-12">
+		<h2 class="text-center text-dark about">About Us</h2>
+		<p class="text-secondary abt-txt text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam velit fuga <br>  eligendi cupiditate dicta voluptate quibusdam fugiat consectetur, at nobis?</p>
+	</div>
+</div>
+
+<div class="row second-row">
+	<div class="col-md-6">
+		<div class="row">
+			<div class="col-12">
+				<p class="text-secondary abt-txt text-justify">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Sequi iusto tenetur delectus, ipsa! Hic nihil cupiditate, sapiente fugit ab eligendi necessitatibus cumque aliquid amet voluptatem sunt quidem quia quaerat ut molestias totam </p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-2">
+				<i class="fas fa-home" style="font-size:20px;border:3px solid #4AA3FF;padding:10px;border-radius:50%;color:#4AA3FF;width: 45px;height: 45px;"></i>
+			</div>
+			<div class="col-10">
+				<h5 class="h5">Home Template</h5>
+				<p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Dolores, quasi tenetur earum, eligendi animi culpa.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-2">
+				<i class="fas fa-home" style="font-size:20px;border:3px solid #4AA3FF;padding:10px;border-radius:50%;color:#4AA3FF;width: 45px;height: 45px;"></i>
+			</div>
+			<div class="col-10">
+				<h5 class="h5">Home Template</h5>
+				<p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Dolores, quasi tenetur earum, eligendi animi culpa.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-2">
+				<i class="fas fa-home" style="font-size:20px;border:3px solid #4AA3FF;padding:10px;border-radius:50%;color:#4AA3FF;width: 45px;height: 45px;"></i>
+			</div>
+			<div class="col-10">
+				<h5 class="h5">Home Template</h5>
+				<p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Dolores, quasi tenetur earum, eligendi animi culpa.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6"><img src="about.jpg" alt="about-img" width="100%"></div>
+</div>
+
+<!--part 2-->
+
+<div class="row third-row">
+	<div class="col-md-6">
+		<img src="about-extra-1.svg" alt="contact" width="100%">
+	</div>
+
+	<div class="col-md-6">
+		<div class="row">
+			<div class="col-12">
+				<h3 class="text-center">Lorem ipsum dolor sit, amet, consectetur adipisicing elit.</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<p class="abt-txt text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cumque minus rerum ex voluptas minima vel nulla labore adipisci autem tempora quos deleniti, laborum alias placeat quas id ducimus deserunt earum sint ipsam reprehenderit dolorem.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<p class="abt-txt text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cumque minus rerum ex voluptas minima vel nulla labore adipisci autem tempora quos deleniti, laborum alias placeat quas id ducimus deserunt earum sint ipsam reprehenderit dolorem.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--fourth part-->
+<div class="row fourth-row">
+	<div class="col-md-6">
+		<div class="row">
+			<div class="col-12">
+				<h3 class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, exercitationem sed fugiat assumenda explicabo numquam!</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="abt-txt text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, molestias dolor ullam optio, hic dolorum similique ipsum magni provident nihil earum, quidem? Rerum, voluptatum, repudiandae.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="abt-txt text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti, possimus in modi nisi adipisci quas odio fugit quis accusantium!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="abt-txt text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta molestiae, libero! Architecto, amet voluptas.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-6"><img src="about-extra-2.svg" alt="img" width="100%"></div>
+</div>
+
+<!--fifth part-->
+<div class="service">
+
+	<div class="row">
+		<div class="col-12">
+			<h3 class="text-center">Services</h3>
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<p class="abt-txt text-secondary text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Quibusdam, rerum hic provident dolorem in natus.</p>
+		</div>
+		
+	</div>
+	<div class="row">
+		<div class="col-md-6 service-col-bg">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="text-center heading">Lorem ipsum.</h4>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-2"> <i class="fas fa-briefcase text-center" style="font-size: 35px;color: hotpink;"></i></div>
+				<div class="col-10"><p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Recusandae voluptas similique exercitationem porro minima facilis.</p></div>
+			</div>
+		</div>
+
+		<div class="col-md-5 service-col-bg">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="text-center heading">Lorem ipsum.</h4>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-2"> <i class="fas fa-briefcase text-center" style="font-size: 35px;color: hotpink;"></i></div>
+				<div class="col-10"><p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Recusandae voluptas similique exercitationem porro minima facilis.</p></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 service-col-bg">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="text-center heading">Lorem ipsum.</h4>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-2"> <i class="fas fa-briefcase text-center" style="font-size: 35px;color: hotpink;"></i></div>
+				<div class="col-10"><p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Recusandae voluptas similique exercitationem porro minima facilis.</p></div>
+			</div>
+		</div> 
+
+		<div class="col-md-5 service-col-bg">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="text-center heading">Lorem ipsum.</h4>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-2"> <i class="fas fa-briefcase text-center" style="font-size: 35px;color: hotpink;"></i></div>
+				<div class="col-10"><p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Recusandae voluptas similique exercitationem porro minima facilis.</p></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 service-col-bg">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="text-center heading">Lorem ipsum.</h4>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-2"> <i class="fas fa-briefcase text-center" style="font-size: 35px;color: hotpink;"></i></div>
+				<div class="col-10"><p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Recusandae voluptas similique exercitationem porro minima facilis.</p></div>
+			</div>
+		</div>
+
+		<div class="col-md-5 service-col-bg">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="text-center heading">Lorem ipsum.</h4>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-2"> <i class="fas fa-briefcase text-center" style="font-size: 35px;color: hotpink;"></i></div>
+				<div class="col-10"><p class="abt-txt text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Recusandae voluptas similique exercitationem porro minima facilis.</p></div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
